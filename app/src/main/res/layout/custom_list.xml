@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="3dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cost Date"
+                android:background="#03A9F4"
+                android:textColor="@color/black"
+                android:id="@+id/cDateId"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Enter Discription of product details..."
+            android:textColor="@color/black"
+            android:id="@+id/cDetailsID"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serail number"
+            android:id="@+id/cTotalId"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@color/teal_200"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

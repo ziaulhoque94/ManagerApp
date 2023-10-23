@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowAllActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello this is manager Appp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textTitle"
+        android:textAlignment="center"
+        />
+
+        <ListView
+            android:layout_below="@id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="#00BCD4"
+            android:dividerHeight="5dp"
+            android:id="@+id/listId"
+            />
+
+</RelativeLayout>
